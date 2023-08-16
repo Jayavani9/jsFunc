@@ -1,4 +1,4 @@
-const prompt = require("prompt-sync")();
+const prompt = require("prompt-sync")(); // To get input from the console from the user we are using prompt-sync library
 
 const deposit = () =>{
     while(true)
