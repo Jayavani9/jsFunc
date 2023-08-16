@@ -1,6 +1,6 @@
 const prompt = require("prompt-sync")(); // To get input from the console from the user we are using prompt-sync library
 
-// Function in javascript. Making it const
+// Function in Javascript. Making it const
 const deposit = () =>{
     while(true)
     {
@@ -18,11 +18,11 @@ const deposit = () =>{
     }
 };
 
-// Function in javascript
+// Function in Javascript
 const getnofLines = () =>{
-    while(true)
+    while(true) // Until true
     {
-    const ln = prompt("Enter the num of lines u wanna bet on(1-3): ");
+    const ln = prompt("Enter the num of lines u wanna bet on(1-3): "); 
     const numLn = parseInt(ln);
 
     if(numLn <= 0 || numLn > 3 || isNaN(numLn)){
