@@ -18,7 +18,7 @@ const deposit = () =>{
     }
 };
 
-
+// Function in javascript
 const getnofLines = () =>{
     while(true)
     {
