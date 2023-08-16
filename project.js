@@ -5,7 +5,7 @@ const deposit = () =>{
     while(true)
     {
         const am = prompt("Enter a deposit amount: ");    //Taking the input from the user
-        const numAmnt = parseFloat(am);
+        const numAmnt = parseFloat(am);                   // Converting the string input to float
 
         if(numAmnt <= 0 || isNaN(numAmnt)){
             console.log("The amount is not valid, Pls try again!!");
