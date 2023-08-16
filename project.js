@@ -8,7 +8,7 @@ const deposit = () =>{
         const numAmnt = parseFloat(am);                   // Converting the string input to float
 
         if(numAmnt <= 0 || isNaN(numAmnt)){                // Checking the condition if the amount is null or less than or equal to 0
-            console.log("The amount is not valid, Pls try again!!");
+            console.log("The amount is not valid, Pls try again!!");     // In such cases, return that the amount is not valid
         }
         else
         {
