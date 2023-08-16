@@ -4,7 +4,7 @@ const prompt = require("prompt-sync")(); // To get input from the console from t
 const deposit = () =>{
     while(true)
     {
-        const am = prompt("Enter a deposit amount: ");
+        const am = prompt("Enter a deposit amount: ");    //Taking the input from the user
         const numAmnt = parseFloat(am);
 
         if(numAmnt <= 0 || isNaN(numAmnt)){
